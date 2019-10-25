@@ -1,6 +1,13 @@
-# IDE 
+# IDE
 .idea/
-cmake-build-debug/
+
+# cmake temp file 
+*cmake-build-debug/
+*CMakeFiles/
+*CMakeCache.txt
+*Makefile
+*cmake_install.cmake
+
 # Prerequisites
 *.d
 
