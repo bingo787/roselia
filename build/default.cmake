@@ -8,5 +8,7 @@ include(build_option)
 # Setup package requirement variables.
 include(package_config)
 
+include(platforms)
+
 # Setup logging variables.
 include(Logger)

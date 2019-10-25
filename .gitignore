@@ -1,7 +1,7 @@
 # IDE
 .idea/
 
-# cmake temp file 
+# cmake temp file
 *cmake-build-debug/
 *CMakeFiles/
 *CMakeCache.txt
