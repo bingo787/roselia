@@ -24,4 +24,4 @@ Full compliance with Google C++ style guide
 
 # 接口设计
 
-既然是SDK就得有API的设计，因为我们选择的语言是C++，那么厂常见的接口设计方法有以下几种：
+既然是SDK就得有API的设计，因为我们选择的语言是C++，那么常用的接口设计方法有以下几种：
