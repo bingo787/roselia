@@ -26,7 +26,9 @@ Full compliance with <Google C++ style guide> ([ENGLISH](https://google.github.i
 
 
 # 接口设计
-## 接口与实现分离的方法
+## 需求
+1. 接口和实现要分离
+## 实现
 * Pimpl Idiom(pointer to implementation)
 * Object Interface
 
@@ -35,6 +37,7 @@ Full compliance with <Google C++ style guide> ([ENGLISH](https://google.github.i
 ***本项目选择前者，即Pimpl***
 
 # 编译系统设计
+## 需求
 1.使用cmake
 
 2.可以配置跨平台编译
@@ -42,4 +45,7 @@ Full compliance with <Google C++ style guide> ([ENGLISH](https://google.github.i
 3.可以配置ROSE的功能选项（比如loger级别，支持的能力）
 
 4.可以配置产品的特性
+## 实现
+看代码 rose/build
+
 
