@@ -23,5 +23,7 @@ Full compliance with <Google C++ style guide> ([ENGLISH](https://google.github.i
 
 
 # 接口设计
-
-既然是SDK就得有API的设计，因为我们选择的语言是C++，那么常用的接口设计方法有以下几种：
+## 接口与实现分离的方法
+* Pimpl Idiom(pointer to implementation)
+* Object Interface
+关于以上两种方法的介绍读 ["C++ “接口”与“实现”分离的两种方法"](https://blog.csdn.net/TAOKONG1017/article/details/79561856)这篇文章就够了
