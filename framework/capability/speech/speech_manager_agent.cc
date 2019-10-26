@@ -4,7 +4,7 @@ namespace rose {
 namespace framework {
 namespace capability{
 namespace speech {
-void rose::framework::capability_agents::speech::SpeechManagerAgent::recognize() {
+void rose::framework::capability::speech::SpeechManagerAgent::recognize() {
 
 }
 }
