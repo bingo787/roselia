@@ -34,7 +34,7 @@ Full compliance with <Google C++ style guide> ([ENGLISH](https://google.github.i
 
 关于以上两种方法的介绍读 ["C++ “接口”与“实现”分离的两种方法"](https://blog.csdn.net/TAOKONG1017/article/details/79561856)这篇文章就够了
 
-***本项目选择前者，即Pimpl***
+***本项目选择后者***
 
 # 编译系统设计
 ## 需求
