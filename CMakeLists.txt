@@ -10,7 +10,10 @@ configure_file (
         "${PROJECT_SOURCE_DIR}/build/config/default.json"
 )
 
-set(SDK_INTERFACE_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/interface/include)
+
+set(ROSE_SDK_INTERFACE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/interface/)
+SET(EXECUTABLE_OUTPUT_PATH ${ROSE_SDK_INTERFACE_DIR}/bin)
+SET(LIBRARY_OUTPUT_PATH ${ROSE_SDK_INTERFACE_DIR}/lib)
 
 add_subdirectory(common)
 add_subdirectory(framework)
