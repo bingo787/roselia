@@ -49,3 +49,12 @@ Full compliance with <Google C++ style guide> ([ENGLISH](https://google.github.i
 看代码 rose/build
 
 
+# 快速入门
+## 编译方法：
+```
+mkdir  ${PROJECT}/out
+cd ${PROJECT}/out
+cmake ..
+make 
+```
+
