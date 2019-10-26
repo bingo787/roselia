@@ -10,7 +10,7 @@ configure_file (
         "${PROJECT_SOURCE_DIR}/build/config/default.json"
 )
 
-set(CMAKE_CXX_STANDARD 17)
+set(SDK_INTERFACE_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/interface/include)
 
 add_subdirectory(common)
 add_subdirectory(framework)

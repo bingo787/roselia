@@ -1,6 +1,6 @@
 # IDE
 .idea/
-
+*.cbp
 # cmake temp file
 *cmake-build-debug/
 *CMakeFiles/
