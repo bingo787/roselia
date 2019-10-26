@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.1)
 # Set project information
 project(rose VERSION 0.0.1 LANGUAGES CXX)
 set(PROJECT_BRIEF "A cross-platform, modular SDK for development robot")
