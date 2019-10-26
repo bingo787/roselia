@@ -5,9 +5,17 @@
 #ifndef ROSE_LOGGING_H
 #define ROSE_LOGGING_H
 
-class Logging {
+#include <iostream>
 
-};
+namespace rose {
+namespace common {
+namespace logger {
+
+#define ROSE_LOG_DEBUG std::cout<<
+
+}
+}
+}
 
 
 #endif //ROSE_LOGGING_H

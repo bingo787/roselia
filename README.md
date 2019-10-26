@@ -48,6 +48,9 @@ Full compliance with <Google C++ style guide> ([ENGLISH](https://google.github.i
 ## 实现
 看代码 rose/build
 
+# 日志系统设计
+日志是所有基础建设的最基础部分，需要先实现.
+[Linux下日志系统的选型](https://www.cnblogs.com/lizhigang/p/7306777.html)
 
 # 快速入门
 ## 编译方法：
