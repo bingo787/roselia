@@ -51,6 +51,7 @@ Full compliance with <Google C++ style guide> ([ENGLISH](https://google.github.i
 # 日志系统设计
 日志是所有基础建设的最基础部分，需要先实现.
 [Linux下日志系统的选型](https://www.cnblogs.com/lizhigang/p/7306777.html)
+本系统打算使用glog
 
 # 快速入门
 ## 编译方法：
