@@ -3,6 +3,8 @@
 //
 #include <iostream>
 #include "logger.h"
+#include <glog/logging.h>
+
 
 rose::common::logger::Logger::Logger() {
     // Initialize Google's logging library.
