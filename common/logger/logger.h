@@ -20,11 +20,6 @@ public:
     ~Logger();
 };
 
-#define RLOG_DEBUG std::cout
-#define RLOG_INFO std::cout
-#define RLOG_WARN std::cout
-#define RLOG_ERROR std::cout
-
 }
 }
 }

@@ -14,8 +14,6 @@ int main() {
 
     auto logger = std::make_shared<rose::common::logger::Logger>();
 
-    RLOG_INFO << "Hello, I am rose master \n";
-
     std::this_thread::sleep_for(3s);
     return 0;
 
