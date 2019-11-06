@@ -4,7 +4,7 @@ project(rose VERSION 0.0.1 LANGUAGES CXX)
 set(PROJECT_BRIEF "A cross-platform, modular SDK for development robot")
 set(PROJECT_ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
-include(build/default.cmake)
+include(${PROJECT_SOURCE_DIR}/configure/default.cmake)
 
 configure_file (
         "${PROJECT_SOURCE_DIR}/configure/config/default.json"
