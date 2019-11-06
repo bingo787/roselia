@@ -7,8 +7,8 @@ set(PROJECT_ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 include(build/default.cmake)
 
 configure_file (
-        "${PROJECT_SOURCE_DIR}/build/config/default.json"
-        "${PROJECT_SOURCE_DIR}/build/config/default.json"
+        "${PROJECT_SOURCE_DIR}/configure/config/default.json"
+        "${PROJECT_SOURCE_DIR}/configure/config/default.json"
 )
 
 
