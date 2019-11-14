@@ -17,7 +17,7 @@ wiki介绍
 # 编程语言
 C++17
 
-C++17新特性：
+[C++17新特性](https://zh.cppreference.com/w/cpp/compiler_support)
 
 # IDE  
 CLion for MacOS
