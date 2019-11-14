@@ -12,10 +12,10 @@ using namespace std::chrono_literals;
 
 int main() {
 
-    auto logger = std::make_shared<rose::common::logger::Logger>();
+  auto logger = std::make_shared<rose::common::logger::Logger>();
 
-    std::this_thread::sleep_for(3s);
-    return 0;
+  std::this_thread::sleep_for(3s);
+  return 0;
 
 }
 

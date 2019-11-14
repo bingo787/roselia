@@ -5,10 +5,8 @@
 #ifndef ROSE_CHANNEL_H
 #define ROSE_CHANNEL_H
 
-
 class Channel {
 
 };
-
 
 #endif //ROSE_CHANNEL_H

@@ -8,9 +8,9 @@ namespace rose {
 namespace interface {
 namespace include {
 
-class SpeechManagerInterface{
-public:
-    virtual void recognize() = 0 ;
+class SpeechManagerInterface {
+ public:
+  virtual void recognize() = 0;
 };
 
 }

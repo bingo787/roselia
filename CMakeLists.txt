@@ -6,7 +6,7 @@ set(PROJECT_ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 include(${PROJECT_SOURCE_DIR}/configure/default.cmake)
 
-configure_file (
+configure_file(
         "${PROJECT_SOURCE_DIR}/configure/config/default.json"
         "${PROJECT_SOURCE_DIR}/configure/config/default.json"
 )

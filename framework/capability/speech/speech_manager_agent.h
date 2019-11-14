@@ -2,14 +2,14 @@
 #define ROSE_SPEECH_MANAGER_AGENT_H
 
 #include "speech_manager_interface.h"
-namespace rose{
-namespace framework{
-namespace capability{
-namespace speech{
+namespace rose {
+namespace framework {
+namespace capability {
+namespace speech {
 
-class SpeechManagerAgent : public rose::interface::include::SpeechManagerInterface{
-public:
-    void recognize() override;
+class SpeechManagerAgent : public rose::interface::include::SpeechManagerInterface {
+ public:
+  void recognize() override;
 };
 
 }

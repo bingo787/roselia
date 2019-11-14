@@ -5,10 +5,8 @@
 #ifndef ROSE_DATA_BASE_H
 #define ROSE_DATA_BASE_H
 
-
 class DataBase {
 
 };
-
 
 #endif //ROSE_DATA_BASE_H

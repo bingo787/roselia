@@ -12,15 +12,14 @@ namespace common {
 namespace logger {
 
 class Logger {
-public:
-    Logger();
+ public:
+  Logger();
 
-    ~Logger();
+  ~Logger();
 };
 
 }
 }
 }
-
 
 #endif //ROSE_LOGGER_H
