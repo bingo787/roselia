@@ -7,8 +7,8 @@
 
 # If no build type is specified by specifying it on the command line, default to debug.
 if (NOT CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the type of build, options are: DEBUG, RELEASE, or MINSIZEREL." FORCE)
-    message("No build type specified, defaulting to Release.")
+    set(CMAKE_BUILD_TYPE "Debug" CACHE STRING "Choose the type of build, options are: DEBUG, RELEASE, or MINSIZEREL." FORCE)
+    message("No build type specified, defaulting to Debug.")
 endif ()
 
 # Verify the build type is valid.
